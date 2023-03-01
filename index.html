@@ -6,24 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="https://kit.fontawesome.com/dc1cf28edc.css" crossorigin="anonymous">
 </head>
 <body>
 <div class="wrapper">
     <div class="sidebar">
-        <h1>Logo</h1>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Profile</a></li>
-            <li><a href="#">Messages</a></li>
-        </ul>
-        <ul>
-            <li><a href="#">Settings</a></li>
-            <li><a href="#">Support</a></li>
-            <li><a href="#">Privacy</a></li>
-        </ul>
+        <img class="logo" src="images/dashboard.png">
+        <span class="header">Dashboard</span>
+        <img class="icon" src="images/home.png"><a href="#">Home</a>
+        <img class="icon" src="images/profile.png"><a href="#">Profile</a>
+        <img class="icon" src="images/messeges.png"><a href="#">Messages</a>
+        <img class="icon gapp" src="images/settings.png"><a href="#" class="gap">Settings</a>
+        <img class="icon" src="images/support.png"><a href="#">Support</a>
+        <img class="icon" src="images/privacy.png"><a href="#">Privacy</a>
     </div>
-    <div class="topContainer"></div>
-    <div class="bodyContainer"></div>
+    <div class="topContainer">
+        <div class="search-area">
+            <img class="icon topicons" src="images/search.png">
+            <input type="text" id="searchbox">
+        </div>
+        <div class="profile-area">
+            <img class="topicons notifications" src="images/notification.png">
+            <img class="topicons profile-pic" src="images/default-profile.png">
+            <p class="profile-name">Admin User</p>  
+        </div>
+        <div class="button-area">
+            <button>New</button>
+            <button>Upload</button>
+            <button>Share</button>
+        </div>
+    </div>
+    <div class="bodyContainer">
+    
+    </div>
 </div>
 </body>
 </html>
